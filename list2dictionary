@@ -1,0 +1,12 @@
+
+
+def mixoflist(l1,l2):
+    d={}
+    for i in range(len(l1)):
+        d[l1[i]]=l2[i]
+        print d
+
+
+mixoflist(['a','b','c','d'],[1,2,3,4])
+
+
